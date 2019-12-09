@@ -1,0 +1,41 @@
+STATUS | wrapper  | 2019/10/22 15:39:37 | --> Wrapper Started as Console
+STATUS | wrapper  | 2019/10/22 15:39:38 | Launching a JVM...
+INFO   | jvm 1    | 2019/10/22 15:39:39 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/10/22 15:39:39 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/10/22 15:39:39 | 
+INFO   | jvm 1    | 2019/10/22 15:39:39 | Java Runtime: Oracle Corporation 1.8.0_221 C:\Program Files\Java\jre1.8.0_221
+INFO   | jvm 1    | 2019/10/22 15:39:39 |   Heap sizes: current=125952k  free=115952k  max=932352k
+INFO   | jvm 1    | 2019/10/22 15:39:39 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=jr9E7P_3c_MVNCek -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=9332 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/10/22 15:39:39 | Extensions classpath:
+INFO   | jvm 1    | 2019/10/22 15:39:39 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2019/10/22 15:39:39 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2019/10/22 15:39:39 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2019/10/22 15:39:39 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2019/10/22 15:39:39 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2019/10/22 15:39:52 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/10/22 15:39:52 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@173dcaaa: startup date [Tue Oct 22 15:39:52 CEST 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/10/22 15:39:53 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\EFREI\M1\S7\INFORMATION SYSTEM CLOUD\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | PListStore:[D:\EFREI\M1\S7\INFORMATION SYSTEM CLOUD\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Apache ActiveMQ 5.15.10 (localhost, ID:ASUS-6105-58063-1571751594304-0:1) is starting
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Listening for connections at: tcp://ASUS-6105:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Listening for connections at: amqp://ASUS-6105:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Listening for connections at: stomp://ASUS-6105:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Listening for connections at: mqtt://ASUS-6105:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/10/22 15:39:54 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@6a71d1e4{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/10/22 15:39:55 |  INFO | Listening for connections at ws://ASUS-6105:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/10/22 15:39:55 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/10/22 15:39:55 |  INFO | Apache ActiveMQ 5.15.10 (localhost, ID:ASUS-6105-58063-1571751594304-0:1) started
+INFO   | jvm 1    | 2019/10/22 15:39:55 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/10/22 15:39:55 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: D:\EFREI\M1\S7\INFORMATION SYSTEM CLOUD\apache-activemq-5.15.10-bin\apache-activemq-5.15.10\bin\win64\..\..\data\kahadb only has 84667 mb of usable space. - resetting to maximum available disk space: 84667 mb
+INFO   | jvm 1    | 2019/10/22 15:39:56 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/10/22 15:39:56 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/10/22 17:33:03 |  WARN | Transport Connection to: tcp://127.0.0.1:58094 failed: java.net.SocketException: Connection reset
