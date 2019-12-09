@@ -1,0 +1,21 @@
+
+<div class="marge">
+	<label for="brand" class="col-sm-2 col-form-label"> Brand </label>
+	<input [(ngModel)]="car.brand">
+	<br>
+
+	<label for="plate" class="col-sm-2 col-form-label"> Plate </label>
+	<input [(ngModel)]="car.plateNumber">
+	<br>
+
+	<label for="price" class="col-sm-2 col-form-label"> Price </label>
+	<input [(ngModel)]="car.price">
+	<br>
+
+  <label for="numberOfSeat" class="col-sm-2 col-form-label"> Number of seat </label>
+  <input [(ngModel)]="car.numberOfSeat">
+  <br>
+
+	<br>
+	<button (click)="add(car)" class="btn btn-success"> Add a car </button>
+</div>

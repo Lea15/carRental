@@ -1,0 +1,38 @@
+<div class="marge">
+  <p><strong>Part of the screen displayed by default or when "Cars to be rented" is selected.</strong></p>
+  <br>
+  <h2>Cars to be rented: </h2>
+  <table class="table">
+    <thead class="thead-dark">
+    <tr>
+      <th scope="col">Brand</th>
+      <th scope="col">Detail</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr *ngFor="let car of cars">
+
+      <td>
+        <p>
+          {{ car.brand }}
+        </p>
+      </td>
+      <td>
+        <a [routerLink]="'/cars/' + car.plateNumber">See more</a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+<!--
+<br>
+<a href="https://github.com/charroux/car-rental/blob/master/src/app/cars/cars.component.html">Source code of this part of the screen</a>
+<br>
+<a href="https://github.com/charroux/car-rental/blob/master/src/app/cars/cars.component.ts">Associated component</a>
+<br>
+<a href="https://github.com/charroux/car-rental/blob/master/src/app/car.service.ts">The underlying service</a>
+-->

@@ -1,0 +1,40 @@
+<div class="marge">
+
+  <h3>Car details of {{car.brand}}</h3>
+
+  <table class="table">
+    <thead class="thead-dark">
+    <tr>
+      <th scope="col">Brand</th>
+      <th scope="col">Price</th>
+      <th scope="col">Plate number</th>
+      <th scope="col">Number of seat</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>
+        <p>
+          {{ car.brand }}
+        </p>
+      </td>
+      <td>
+        {{car.price}}
+      </td>
+      <td>
+        {{car.plateNumber}}
+      </td>
+      <td>
+        {{car.numberOfSeat}}
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+</div>
+<!--
+<br><a href="https://github.com/charroux/car-rental/blob/master/src/app/car-detail/car-detail.component.html">Source code of this part of the screen</a>
+<br><a href="https://github.com/charroux/car-rental/blob/master/src/app/car-detail/car-detail.component.ts">Associated component</a>
+-->
+
+
