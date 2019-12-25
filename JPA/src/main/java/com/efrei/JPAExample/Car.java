@@ -1,5 +1,11 @@
 package com.efrei.JPAExample;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.Transient;
+
+@Entity
 public class Car {
 
     private long id;
@@ -25,8 +31,15 @@ public class Car {
         this.numberOfDays = numberOfDays;
     }
 
+    @ManyToOne
+    public Person getPerson() {
+        return person;
+    }
+    public void setPerson(Person person) {
+        this.person = person;
+    }
 
-
+    @Id
     public long getId() {
         return id;
     }
